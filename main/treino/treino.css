@@ -1,0 +1,70 @@
+section {
+    border: 2px solid black;
+    width: 550px;
+    height: 200px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: flex-start;
+    
+}
+div {
+    background-color: goldenrod;
+    color: white;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+
+    padding: 5px;
+}
+
+.flexb {
+    flex-basis: 150px;
+    flex-shrink: 0;
+}
+.shrink1 {
+    flex-shrink: 1;
+}
+.shrink2 {
+    flex-shrink: 2;
+}
+.shrink3 {
+    flex-shrink: 3;
+}
+.shrink4 {
+    flex-shrink: 4;
+}
+
+.flexba1 {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 1;
+    align-self: flex-end;
+}
+.flexba2 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    align-self: center;
+}
+.flexba3 {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 1;;
+    align-self: stretch;
+
+    padding-top: 15px;
+}
+.flexba4 {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 1;
+}
+.flexba5 {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 1;
+}
