@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'fonte-principal';
-    src:    url(./fontes/Nunito-Regular.ttf) format('truetype'), url(./fontes/Nunito-Light.ttf) format('truetype'), url(./fontes/Nunito-Medium.ttf) format('truetype'), url(./fontes/Nunito-Regular.ttf) format('truetype'), url(./fontes/Nunito-SemiBold.ttf) format('truetype');
+    src: url(fontes/Nunito-Regular.ttf) format('truetype');
 }
 
 * {
@@ -14,6 +14,18 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    background: #fff;
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: #dadada;
+
+    border-radius: 10px;
+    border: 4px solid #fff;
+}
+
+
 ul {
     list-style-type: none;
 }
@@ -22,7 +34,6 @@ ul a {
 }
 
 img {
-    display: block;
     width: 100%;
 }
 
@@ -33,64 +44,101 @@ body {
 
 .supertop-container {
     background-color: #122AB2;
-    color: white;
+    color: #fff;
 
     padding: 10px 0px;
-}
-.top-container {
-    max-width: 960px;
-
-    margin: auto;
-
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.area {
-    font-size: 1rem;
-}
-
-.supermenu-container {
-    background-color: #2C70FF;
-    color: white;
-
-    padding: 20px 0px;
 }
 .menu-container {
     max-width: 960px;
 
-    margin: auto;
+    margin: auto;;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+.area {
+    font-size: 1rem;
 
-.h1-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.supermenu-container {
+    background-color: #2C70FF;
+    color: #fff;
+
+    padding: 20px 0px;
+}
+
+.h1-container a {
     font-size: 1.8rem;
     font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+    padding-left: 15px;
 }
 
 .menu-lista {
     display: flex;
     flex-wrap: wrap;
+
+    padding-right: 15px;
 }
 .menu-lista li {
     margin-left: 15px;
 }
 .menu-lista a {
-    color: white;
+    color: #fff;
     font-size: 1.25rem;
 }
 
 .apresentacao-container {
     max-width: 960px;
 
-    margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    margin: auto;
     border-bottom: 2px solid #122AB2;
+}
+.apresentacao-container p {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 1.2em;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sec-sobre {
+    max-width: 960px;
     
-    font-size: 3.3rem;
+    margin: auto;
+    padding: 60px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-sobre {
+    flex-grow: 2;
+    flex-basis: 300px;
+    flex-shrink: 1;
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.info-sobre h2 {
+    font-size: 2.8rem;
+    padding-bottom: 20px;
+}
+.info-sobre p {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+
+    color: #777777;
+
+    margin-bottom: 20px;
 }
