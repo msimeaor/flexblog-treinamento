@@ -95,6 +95,9 @@ body {
 .menu-lista li {
     margin-left: 15px;
 }
+#li-sobre {
+    margin-left: 0px;
+}
 .menu-lista a {
     color: #fff;
     font-size: 1.25rem;
