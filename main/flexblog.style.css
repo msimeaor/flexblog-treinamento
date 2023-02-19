@@ -89,7 +89,6 @@ body {
 
 .menu-lista {
     display: flex;
-    flex-wrap: wrap;
 
     padding: 0px 15px;
 }
