@@ -12,7 +12,7 @@
 
 <body>
     
-    <header class="fixed-header">
+    <header class="header">
         <div class="supertop-container">
             <div class="menu-container">
                 <div class="area numero">
@@ -38,7 +38,7 @@
                 <ul class="menu-lista">
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#preco">Preço</a></li>
+                    <li><a href="#precos">Preços</a></li>
                     <li><a href="#qualidade">Qualidade</a></li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section class="sec-produtos">
+    <section class="sec-produtos" id="produtos">
         <h1 class="produtos-titulo">Produtos</h1>
 
         <div class="produto-container purple">
@@ -85,41 +85,41 @@
         </div>
     </section>
 
-    <section class="sec-precos">
-        <div class="container-preco cobre">
-            <p class="titulo-preco">Cobre</p>
-            <p class="preco">
+    <section class="sec-precos" id="precos">
+        <div class="container-preco" id="container-preco-cobre">
+            <p class="titulo-preco" id="titulo-preco-cobre">Cobre</p>
+            <p class="preco" id="preco-cobre">
                 <sup>R$</sup><span>17,9</span></p>
-            <ul class="beneficios-lista">
+            <ul class="beneficios-lista" id="beneficios-lista-cobre">
                 <li>Planos Ilimitados <span></span></li>
                 <li>Acesso Restrito <span></span></li>
                 <li>Conteúdo Secreto <span></span></li>
                 <li>Suporte 24h <span></span></li>
             </ul>
-            <a href="#" class="link-comprar">COMPRAR</a>
+            <a href="#" class="link-comprar" id="link-comprar-cobre">COMPRAR</a>
         </div>
 
-        <div class="container-preco prata">
-            <p class="titulo-preco prata">Prata</p>
-            <p class="preco">
+        <div class="container-preco" id="container-preco-prata">
+            <p class="titulo-preco" id="titulo-preco-prata">Prata</p>
+            <p class="preco" id="preco-prata">
                 <sup>R$</sup><span>37,9</span>
             </p>
-            <ul class="beneficios-lista">
+            <ul class="beneficios-lista" id="beneficios-lista-prata">
                 <li>Planos Ilimitados <span></span></li>
                 <li>Acesso Restrito <span></span></li>
                 <li>Conteúdo Secreto <span></span></li>
                 <li>Suporte 24h <span></span></li>
                 <li>Compra Exclusiva <span></span></li>
             </ul>
-            <a href="#" class="link-comprar">COMPRAR</a>
+            <a href="#" class="link-comprar" id="link-comprar-prata">COMPRAR</a>
         </div>
 
-        <div class="container-preco ouro">
-            <p class="titulo-preco ouro">Ouro</p>
-            <p class="preco">
+        <div class="container-preco" id="container-preco-ouro">
+            <p class="titulo-preco" id="titulo-preco-ouro">Ouro</p>
+            <p class="preco" id="preco-ouro">
                 <sup>R$</sup><span>87,90</span>
             </p>
-            <ul class="beneficios-lista">
+            <ul class="beneficios-lista" id="beneficios-lista-ouro">
                 <li>Planos Ilimitados <span></span></li>
                 <li>Acesso Restrito <span></span></li>
                 <li>Conteúdo Secreto <span></span></li>
@@ -127,11 +127,11 @@
                 <li>Compra Exclusiva <span></span></li>
                 <li>Download dos Ítens <span></span></li>
             </ul>
-            <a href="#" class="link-comprar">COMPRAR</a>
+            <a href="#" class="link-comprar" id="link-comprar-ouro">COMPRAR</a>
         </div>
     </section>
 
-    <section class="sec-informacoes">
+    <section class="sec-informacoes" id="qualidade">
         <div class="info-container">
             <h2 class="bg-roxo">Inteligente</h2>
             <p class="info-container-paragraph">
@@ -188,6 +188,10 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <p>FlexBlog &copy; Todos os direitos reservados</p>
+    </footer>
 
 </body>
 

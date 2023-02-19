@@ -84,14 +84,14 @@ body {
     color: #fff;
     text-decoration: none;
 
-    padding-left: 15px;
+    padding: 0px 15px;
 }
 
 .menu-lista {
     display: flex;
     flex-wrap: wrap;
 
-    padding-right: 15px;
+    padding: 0px 15px;
 }
 .menu-lista li {
     margin-left: 15px;
@@ -107,8 +107,7 @@ body {
 .apresentacao-container {
     max-width: 960px;
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 15px;
 
     margin: auto;
     border-bottom: 2px solid #122AB2;
@@ -117,9 +116,6 @@ body {
     font-size: 3.2rem;
     font-weight: bold;
     line-height: 1.2em;
-
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .sec-sobre {
@@ -159,7 +155,7 @@ body {
     max-width: 960px;
     margin: auto;
 
-    padding: 60px 15px;
+    padding: 60px 0px;
 
     display: flex;
     flex-wrap: wrap;
@@ -171,6 +167,7 @@ body {
     flex-basis: 100%;
 
     margin-bottom: 40px;
+    padding: 0px 15px;
 
     font-size: 3rem;
 }
@@ -178,18 +175,20 @@ body {
 .produto-container {
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 200px;
+    flex-basis: 210px;
 
     border-radius: 10px;
-    margin-bottom: 20px;
 
     align-self: flex-end;
 }
 .purple {
-    margin-right: 20px;
+    padding: 10px 15px 20px 15px;
+}
+.pink {
+    padding: 10px 15px 20px 15px;
 }
 .blue {
-    margin-left: 20px;
+    padding: 10px 15px 20px 15px;
 }
 
 .produto-container p {
@@ -280,8 +279,7 @@ body {
     font-size: 1.2rem;
     color: #727272;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0px;
 }
 .beneficios-lista li {
     margin-top: 10px;
@@ -297,8 +295,6 @@ body {
 
     background: #5a6cd1;
     border-radius: 50%;
-
-    justify-self: flex-end;
 }
 
 .link-comprar {
@@ -325,9 +321,9 @@ body {
     display: flex;
     flex-wrap: wrap;
 
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
-    padding: 60px 15px;
+    padding: 60px 0px;
 }
 
 .info-container {
@@ -393,6 +389,8 @@ body {
 .email-container {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 500px;
+    flex-shrink: 1;
 
     border: 3px solid #2C70FF;
     background-color: #2C70FF;
@@ -401,23 +399,40 @@ body {
 }
 .email-container input {
     flex-grow: 1;
+    flex-basis: 260px;
+    flex-shrink: 1;
 
     background: #F7F7F7;
 
     border: none;
     font-size: 1rem;
-    padding: 0px 10px;
+    padding: 15px 10px;
 }
 .email-container a {
     display: inline-block;
     flex-grow: 1;
+    flex-basis: 130px;
+    flex-shrink: 1;
 
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    padding: 10px 0px;
 }
 .email-container a:hover {
     background-color: #122AB2;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 0px;
+    background: #122AB2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
