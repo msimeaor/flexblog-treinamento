@@ -19,6 +19,7 @@ html {
     background: #fff;
     width: 20px;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #dadada;
 
@@ -30,6 +31,7 @@ html {
 ul {
     list-style-type: none;
 }
+
 ul a {
     text-decoration: none;
 }
@@ -48,25 +50,29 @@ body {
 
     padding: 10px 0px;
 }
+
 .menu-container {
     max-width: 960px;
 
-    margin: auto;;
+    margin: auto;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .area {
     font-size: 1rem;
 
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .numero {
     order: 1;
 }
+
 .endereco {
     order: 2;
 }
@@ -92,16 +98,20 @@ body {
 
     padding: 0px 15px;
 }
+
 .menu-lista li {
     margin-left: 15px;
 }
+
 #li-sobre {
     margin-left: 0px;
 }
+
 .menu-lista a {
     color: #fff;
     font-size: 1.25rem;
 }
+
 .menu-lista a:hover {
     color: rgb(1, 1, 133);
 }
@@ -114,6 +124,7 @@ body {
     margin: auto;
     border-bottom: 2px solid #122AB2;
 }
+
 .apresentacao-container p {
     font-size: 3.2rem;
     font-weight: bold;
@@ -138,9 +149,11 @@ body {
 
     margin-right: 15px;
 }
+
 .info-sobre h2 {
     font-size: 3.3rem;
 }
+
 .info-sobre p {
     font-size: 1.2rem;
     color: rgb(59, 59, 59);
@@ -183,12 +196,15 @@ body {
 
     align-self: flex-end;
 }
+
 .purple {
     padding: 10px 15px 20px 15px;
 }
+
 .pink {
     padding: 10px 15px 20px 15px;
 }
+
 .blue {
     padding: 10px 15px 20px 15px;
 }
@@ -207,12 +223,15 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 #purple {
     border-top: 10px solid #AE81FF;
 }
+
 #pink {
     border-top: 10px solid #F9265E;
 }
+
 #blue {
     border-top: 10px solid #66D9EB;
 }
@@ -242,13 +261,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
+
     margin: 0px 10px 20px 10px;
     padding: 20px;
 
     border: 5px solid #fff;
     border-radius: 20px;
 }
+
 .titulo-preco {
     font-size: 2.8rem;
     color: #A4A4A4;
@@ -266,12 +286,14 @@ body {
     padding: 20px;
     border-bottom: 5px solid #fff;
 }
+
 .preco sup {
     font-size: 1.2rem;
     font-weight: bold;
 
     margin-right: 5px;
 }
+
 .preco span {
     font-size: 2.4rem;
     font-weight: bold;
@@ -283,6 +305,7 @@ body {
 
     padding: 20px 0px;
 }
+
 .beneficios-lista li {
     margin-top: 10px;
 
@@ -290,6 +313,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .beneficios-lista span {
     display: inline-block;
     height: 10px;
@@ -314,6 +338,7 @@ body {
     border: 2px solid #000;
     border-radius: 10px;
 }
+
 .link-comprar:hover {
     background-color: #122AB2;
     color: #fff;
@@ -335,25 +360,29 @@ body {
 
     margin: 30px 15px 0px 15px;
 }
+
 .info-container h2 {
     font-size: 2.2rem;
     color: #727272;
 }
 
-.info-container h2::before { 
+.info-container h2::before {
     content: '';
     display: inline-block;
-    
+
     height: 25px;
     width: 7.5px;
     margin-right: 5px;
 }
+
 .bg-roxo::before {
     background: #AE81FF;
 }
+
 .bg-rosa::before {
     background: #F9265E;
 }
+
 .bg-azul::before {
     background: #2C70FF;
 }
@@ -384,10 +413,12 @@ body {
 .convite-assinatura {
     margin: 10px;
 }
+
 .convite-assinatura h1 {
     font-size: 3rem;
     color: #727272;
 }
+
 .convite-assinatura p {
     font-size: 1.3rem;
     color: #727272;
@@ -405,6 +436,7 @@ body {
 
     margin: 10px;
 }
+
 .email-container input {
     flex-grow: 1;
     flex-basis: 260px;
@@ -416,6 +448,7 @@ body {
     font-size: 1rem;
     padding: 15px 10px;
 }
+
 .email-container a {
     display: inline-block;
     flex-grow: 1;
@@ -429,6 +462,7 @@ body {
     text-align: center;
     padding: 10px 0px;
 }
+
 .email-container a:hover {
     background-color: #122AB2;
 }
